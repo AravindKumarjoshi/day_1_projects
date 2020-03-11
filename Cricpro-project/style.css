@@ -1,0 +1,79 @@
+/* Type your code here */
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800,900&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: "Nunito Sans", sans-serif;
+	background-image: url(assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom right;
+}
+
+.logo {
+	padding: 15px 50px;
+	float: right;
+
+}
+
+header {
+	padding: 80px 40px 10px 40px;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 900;
+}
+
+h2 {
+	color: gray;
+}
+
+
+.score {
+
+	margin-left: 37px;
+	background-color: aliceblue;
+	width: 900px;
+
+}
+
+.head {
+	background-color: orangered;
+	display: flex;
+	padding: 5px;
+
+}
+
+.tablefoot {
+	display: flex;
+	padding: 5px;
+}
+
+.tablehead {
+	margin: 0px;
+	padding: 0px;
+}
+
+td {
+	padding-right: 20px;
+}
+
+.hr {
+	border: 1px solid red;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* change the font family and spacing as per your project font */
+.footer {
+	padding: 35px;
+
+}
