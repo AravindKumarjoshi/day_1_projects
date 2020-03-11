@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: minmax(200px, auto);
+            grid-gap: 1em;
+        }
+
+        .grid-container>div {
+            padding: 1em;
+            background-color: grey;
+
+        }
+
+        .grid-container>div:nth-child(even) {
+            background-color: lightgrey;
+        }
+
+        #box1 {
+            background-color: red;
+        }
+
+        #box2 {
+            grid-column: 2/4;
+            background-color: purple;
+        }
+
+        #box3 {
+            grid-column: 3/4;
+            grid-row: 2/4;
+            background-color: blue;
+        }
+
+        #box4,
+        #box5 {
+            background-color: red;
+        }
+
+        #box6 {
+            grid-column: 1/3;
+            grid-row: 2/3;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div id="box1">content1</div>
+        <div id="box2">content2</div>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Complex Grid</title>
+            <style>
+                .grid-container {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-auto-rows: minmax(200px, auto);
+                    grid-gap: 1em;
+                }
+
+                .grid-container>div {
+                    padding: 1em;
+                    background-color: black;
+
+                }
+
+                .grid-container>div:nth-child(even) {
+                    background-color: lightgrey;
+                }
+
+                #box1 {
+                    background-color: blue;
+                }
+
+                #box2 {
+                    grid-column: 3/4;
+                    background-color: rgb(4, 184, 255);
+                }
+
+                #box3 {
+                    grid-column: 3/4;
+                    grid-row: 2/4;
+                    background-color: rgb(18, 241, 10);
+                }
+
+                #box4,
+                #box5 {
+                    background-color: red;
+                }
+
+                #box6 {
+                    grid-column: 1/3;
+                    grid-row: 2/3;
+                    background-color: orange;
+                }
+            </style>
+        </head>
+
+        <body>
+            <div class="grid-container">
+                <div id="box1">content1</div>
+                <div id="box2">content2</div>
+                <div id="box3">content3</div>
+                <div id="box4">content4</div>
+                <div id="box5">content5</div>
+                <div id="box6">content6</div>
+
+
+
+            </div>
+        </body>
+
+        </html>
+    </div>
+</body>
+
+</html>

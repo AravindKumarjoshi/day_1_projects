@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.footer {
+  display: flex;
+  margin-left: 280px;
+  font-size: 18px;
+  align-items: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
+}
+
+.img {
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.score {
+  font-size: 50px;
+}
+.num {
+  font-size: 50px;
+}

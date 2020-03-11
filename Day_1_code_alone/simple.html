@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple Grid</title>
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr 2fr);
+        grid-gap: 1em;
+        grid-auto-rows: minmax(100px, auto);
+        justify-items: start;
+    }
+
+    .grid-container>div {
+        padding: 1em;
+        background-color: orangered;
+    }
+
+    .grid-container>div:nth-child(even) {
+        background-color: green;
+    }
+</style>
+
+<body>
+    <div class="grid-container">
+        <div>content1</div>
+        <div>content2</div>
+        <div>content3</div>
+        <div>content4</div>
+        <div>content5</div>
+        <div>content6</div>
+        <div>content7</div>
+        <div>content8</div>
+        <div>content9</div>
+    </div>
+</body>
+
+</html>
